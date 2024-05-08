@@ -1,6 +1,6 @@
 {
   "name": "web-logger-js",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "a js library for web application store log and send log",
   "type": "module",
   "files": [
@@ -16,8 +16,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "publish": "npm publish"
+    "build": "vite build"
   },
   "repository": {
     "type": "git",

@@ -2,10 +2,25 @@
 a js library for web application store log and send log
 
 ### usage
+#### option one
+```bash
+git clone
+```
+```bash
+npm i
+```
+```bash
+npm run build
+```
+copy dist/web-logger-js.js to your project
 
-* `git clone`
-* `npm i`
-* run `npm run build`，copy dist/web-logger.js to your project
+#### option two
+```bash
+npm i web-logger-js
+```
+```javascript
+import Logger from "web-logger-js"
+```
 
 
 #### notice
@@ -18,7 +33,7 @@ in vue project main.js
 ```javascript
 import Vue from 'vue';
 import { createRouter } from "vue-router"
-import Logger from "@/utils/web-logger.min.js"
+import Logger from "web-logger-js"
 
 const router = createRouter()
 const logger = new Logger({
