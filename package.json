@@ -1,0 +1,41 @@
+{
+  "name": "web-logger-js",
+  "version": "0.0.1",
+  "description": "a js library for web application store log and send log",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/web-logger-js.umd.cjs",
+  "module": "./dist/web-logger-js.js",
+  "exports": {
+    ".": {
+      "import": "./dist/web-logger-js.js",
+      "require": "./dist/web-logger-js.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DusuWen/web-logger-js.git"
+  },
+  "author": "DusuWen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DusuWen/web-logger-js/issues"
+  },
+  "homepage": "https://github.com/DusuWen/web-logger-js#readme",
+  "dependencies": {
+    "js-encrypt": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  }
+}
